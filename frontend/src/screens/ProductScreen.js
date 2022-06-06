@@ -4,7 +4,7 @@ import Rating from '../components/Rating';
 import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 
-const ProductScreen = props => {
+const ProductScreen = () => {
   const { id } = useParams();
 
   const [product, setProduct] = useState({});
