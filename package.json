@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "MERN shopping cart app",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
@@ -14,7 +15,7 @@
     "url": "git+https://github.com/avoitishin/ProShop.git"
   },
   "author": "Andrey Voitishin",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/avoitishin/ProShop/issues"
   },
